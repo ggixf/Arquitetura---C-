@@ -1,0 +1,284 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM0YAneEyyNfO6N3cTMj8gC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ggixf/Arquitetura---C-/blob/main/Lista%20exerc_0309\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "LZFZ5glx9FGK"
+      },
+      "outputs": [],
+      "source": [
+        "\"\"\"1.1 - Soma de Dois Números: Crie um programa que peça ao usuário dois números e\n",
+        "exiba a soma deles.\"\"\""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "    num1 = float(input(\"Digite um numero: \"))\n",
+        "    num2 = float(input(\"Digite outro numero: \"))\n",
+        "    soma = num1 + num2\n",
+        "\n",
+        "print(f\"Soma é = {soma}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o6RW5EwZ9otu",
+        "outputId": "ad5fc8c0-86da-4105-8273-f4a9deb6a8b3"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero: 5\n",
+            "Digite outro numero: 9\n",
+            "Soma é = 14.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"1.2 - Diferença entre Dois Números: Peça ao usuário dois números e mostre a\n",
+        "diferença entre o maior e o menor.\"\"\""
+      ],
+      "metadata": {
+        "id": "r3A3PATRFu6n"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"Digite um numero: \"))\n",
+        "num2 = float(input(\"Digite outro numero: \"))\n",
+        "dif = num1 - num2\n",
+        "\n",
+        "print(f\"A diferença é {dif}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zH8J4tTBGPa-",
+        "outputId": "50cfda98-7658-4220-eceb-14eddc81f4b1"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero: 9\n",
+            "Digite outro numero: 10\n",
+            "A diferença é -1.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"1.3 - Produto de Três Números: Solicite três números ao usuário e mostre o produto\n",
+        "(multiplicação) deles.\"\"\""
+      ],
+      "metadata": {
+        "id": "xMRMVQL5MINF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"Digite um numero: \"))\n",
+        "num2 = float(input(\"Digite o segundo numero:\"))\n",
+        "num3 = float(input(\"Digite o terceiro numero: \"))\n",
+        "mult = num1 * num2 * num3\n",
+        "\n",
+        "print (f\"O produto é {mult}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-Y3qFvNMMNqM",
+        "outputId": "2b9e7166-e8f1-4dc6-92a1-ab5b40682d4a"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero: 5\n",
+            "Digite o segundo numero:6\n",
+            "Digite o terceiro numero: 1\n",
+            "O produto é 30.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\" 2.4 - Média Aritmética: Crie um programa que solicite cinco números e calcule a\n",
+        "média aritmética deles.\"\"\""
+      ],
+      "metadata": {
+        "id": "SSBdJ0biOz-9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"Digite um numero: \"))\n",
+        "num2 = float(input(\"Digite o segundo numero: \"))\n",
+        "num3 = float(input(\"Digite o terceiro numero: \"))\n",
+        "num4 = float(input(\"Digite o quarto numero: \"))\n",
+        "num5 = float(input(\"Digite o quinto numero: \"))\n",
+        "media = (num1 + num2 + num3 + num4 + num5)/ 5\n",
+        "\n",
+        "print (f\"A media é {media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i2uNnSgaPjMr",
+        "outputId": "8b1f8d61-6a2d-49d6-8b42-d2c8780a1af5"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero: 4\n",
+            "Digite o segundo numero: 6\n",
+            "Digite o terceiro numero: 9\n",
+            "Digite o quarto numero: 10\n",
+            "Digite o quinto numero: 8\n",
+            "A media é 7.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\" 2.5 - Quadrado de um Número: Solicite um número ao usuário e exiba o quadrado\n",
+        "dele (número multiplicado por ele mesmo).\"\"\"\n",
+        "\n",
+        "num1 = float(input(\"Digite um numero: \"))\n",
+        "quad = num1 * num1\n",
+        "\n",
+        "print (f\"O resultado deste numero ao quadrado é: {quad}\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ia9H4NriStyM",
+        "outputId": "88d87cf9-85e1-482c-e3a8-225ba30d7a06"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero: 5\n",
+            "O resultado deste numero ao quadrado é: 25.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"3.7 - Área de um Triângulo: Solicite a base e a altura de um triângulo e calcule sua\n",
+        "área usando a fórmula:\"\"\""
+      ],
+      "metadata": {
+        "id": "1giFbI_TYVAo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "base = float(input(\"Digite a base do triângulo: \"))\n",
+        "altura = float(input(\"Digite a altura do triângulo: \"))\n",
+        "area = (base * altura)/2\n",
+        "\n",
+        "print (f\"A área do triângulo é: {area}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fyZhSbzTYiO3",
+        "outputId": "3901184e-dd9a-45ee-a6b6-60a93cb86ca0"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a base do triângulo: 8\n",
+            "Digite a altura do triângulo: 10\n",
+            "A área do triângulo é: 40.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "zWl929rWYYiQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
